@@ -6,16 +6,22 @@ func main() {
 
 	store := NewStore()
 
-	store.Put("1", "Andu")
-	store.Put("2", "Andrei")
-	store.Put("3", "Mama")
-	store.Put("4", "Tata")
+	store.Put("1", "John")
+	store.Put("2", "David")
+	store.Put("3", "Mary")
+	store.Put("4", "Jesus")
 
 	store.Iterate()
 
 	fmt.Println("==============================")
 
-	store.Put("1", "Andu Scheusan")
+	store.Put("1", "God")
+
+	store.Iterate()
+
+	fmt.Println("==============================")
+
+	store.Delete("2")
 
 	store.Iterate()
 
