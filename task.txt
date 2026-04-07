@@ -1,0 +1,3 @@
+Design a key-value store that support the following operations:
+- put(key, value) // insert "value" associated with "key"
+- get(key) // get "value" associated with "key"
