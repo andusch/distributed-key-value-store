@@ -25,4 +25,13 @@ func main() {
 
 	store.Iterate()
 
+	fmt.Println("==============================")
+
+	original := "AABBBCCCC"
+	compressed := run_length_encode(original)
+	decoded := run_length_decode(compressed)
+	fmt.Println("Original:", original)
+	fmt.Println("Compressed:", compressed)
+	fmt.Println("Decoded:", decoded)
+
 }
