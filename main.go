@@ -25,9 +25,9 @@ func main() {
 	str.Delete("2")
 	str.Iterate()
 
-	fmt.Println("==============================")
-	fmt.Println("Testing concurrency...")
-	testConcurrency(str)
+	// fmt.Println("==============================")
+	// fmt.Println("Testing concurrency...")
+	// testConcurrency(str)
 
 	c := codec.RLECodec{}
 	encoded := c.Encode("AABBBCCCC")
